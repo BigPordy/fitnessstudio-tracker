@@ -1,0 +1,20 @@
+{
+  "name": "fitnessstudio-tracker",
+  "version": "1.0.0",
+  "description": "Fitnessstudio Belegungs-Tracker",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build complete'",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "sqlite3": "^5.1.6",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "vercel": "^28.0.0"
+  }
+}
