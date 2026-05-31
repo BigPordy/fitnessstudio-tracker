@@ -12,9 +12,10 @@
       "destination": "/pages/index.html"
     }
   ],
-  "env": [
-    "ELEMENTS_API_URL",
-    "DATABASE_URL",
-    "JWT_SECRET"
+  "crons": [
+    {
+      "path": "/api/sync",
+      "schedule": "0 15 * * * *"
+    }
   ]
 }
