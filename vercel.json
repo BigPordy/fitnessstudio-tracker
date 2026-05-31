@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "public": true,
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/pages/index.html"
+    }
+  ],
+  "env": [
+    "ELEMENTS_API_URL",
+    "DATABASE_URL",
+    "JWT_SECRET"
+  ]
+}
